@@ -1,4 +1,4 @@
-# web高額グループ5
+# web工学グループ5
 
 ##  author
 
@@ -17,4 +17,9 @@
 ## presentation date
 	
 	2017/07/12
+
+## middle ware
+	
+	mysql 
+
 
