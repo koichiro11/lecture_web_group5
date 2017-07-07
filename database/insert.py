@@ -4,7 +4,7 @@
 import mysql.connector
 import pandas as pd
 import sys
-sys.path.append("../tralslation/")
+sys.path.append("../translation/")
 from utils import * 
 
 if __name__ == "__main__":
