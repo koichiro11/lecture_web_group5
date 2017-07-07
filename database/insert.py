@@ -18,9 +18,9 @@ if __name__ == "__main__":
 		print(row["post_content"])
 
 		# 翻訳
-		translated_title = tranalte_text_with_model(row["post_title"],"ja", "en")
+		translated_title = translate_text_with_model(row["post_title"],"ja", "en")
 		translated_content = translate_text_with_model(row["post_content"], "ja", "en")
-		print(tralslated_title)
+		print(translated_title)
 
 		# TODO(insert)
 
