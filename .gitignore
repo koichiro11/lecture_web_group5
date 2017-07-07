@@ -1,4 +1,6 @@
 *.csv
 *.png
 config/*
+google_api.py
+
 
