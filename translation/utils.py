@@ -16,7 +16,7 @@ def translate_text_with_model(text, source, target, model="nmt"):
     """
     # set token here
 	token = google_api.google_api_key
-    url = "https://translation.googleapis.com/language/translate/v2"
+	url = "https://translation.googleapis.com/language/translate/v2"
 
     payload = {
 	            'target': target,
@@ -38,3 +38,4 @@ def translate_text_with_model(text, source, target, model="nmt"):
 
     # print(jObj)
     return jObj
+
