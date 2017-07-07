@@ -15,8 +15,8 @@ def translate_text_with_model(text, source, target, model="nmt"):
     :return:
     """
     # set token here
-	token = google_api.google_api_key
-	url = "https://translation.googleapis.com/language/translate/v2"
+    token = google_api.google_api_key 
+    url = "https://translation.googleapis.com/language/translate/v2"
 
     payload = {
 	            'target': target,
@@ -27,7 +27,7 @@ def translate_text_with_model(text, source, target, model="nmt"):
             	}
 
     headers = {
-            	'Content-Type': 'application/json',
+            'Content-Type': 'application/json',
                     # 'Authorization': 'Bearer ' + token,
             }
 
